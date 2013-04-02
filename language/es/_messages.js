@@ -34,41 +34,41 @@ goog.provide('Blockly.messages.en');
 Blockly.MSG_DUPLICATE_BLOCK = 'Duplicar';
 Blockly.MSG_REMOVE_COMMENT = 'Eliminar Comentario';
 Blockly.MSG_ADD_COMMENT = 'Agregar Comentario';
-Blockly.MSG_EXTERNAL_INPUTS = 'External Inputs';
-Blockly.MSG_INLINE_INPUTS = 'Inline Inputs';
-Blockly.MSG_DELETE_BLOCK = 'Delete Block';
-Blockly.MSG_DELETE_X_BLOCKS = 'Delete %1 Blocks';
-Blockly.MSG_COLLAPSE_BLOCK = 'Collapse Block';
-Blockly.MSG_EXPAND_BLOCK = 'Expand Block';
-Blockly.MSG_DISABLE_BLOCK = 'Disable Block';
-Blockly.MSG_ENABLE_BLOCK = 'Enable Block';
-Blockly.MSG_HELP = 'Help';
+Blockly.MSG_EXTERNAL_INPUTS = 'External Inputs'; //--- Entrada en linea?
+Blockly.MSG_INLINE_INPUTS = 'Inline Inputs'; //--- Entrada en linea?
+Blockly.MSG_DELETE_BLOCK = 'Eliminar Bloque';
+Blockly.MSG_DELETE_X_BLOCKS = 'Eliminar %1 Bloques';
+Blockly.MSG_COLLAPSE_BLOCK = 'Colapsar Bloques';
+Blockly.MSG_EXPAND_BLOCK = 'Expandir Bloque';
+Blockly.MSG_DISABLE_BLOCK = 'Deshabilitar Bloque';
+Blockly.MSG_ENABLE_BLOCK = 'Habilitar Bloque';
+Blockly.MSG_HELP = 'Ayuda';
 
 // Variable renaming.
-Blockly.MSG_CHANGE_VALUE_TITLE = 'Change value:';
-Blockly.MSG_NEW_VARIABLE = 'New variable...';
-Blockly.MSG_NEW_VARIABLE_TITLE = 'New variable name:';
-Blockly.MSG_RENAME_VARIABLE = 'Rename variable...';
-Blockly.MSG_RENAME_VARIABLE_TITLE = 'Rename all "%1" variables to:';
+Blockly.MSG_CHANGE_VALUE_TITLE = 'Cambiar valor:';
+Blockly.MSG_NEW_VARIABLE = 'Nueva variable...';
+Blockly.MSG_NEW_VARIABLE_TITLE = 'Nombre de la nueva variable:';
+Blockly.MSG_RENAME_VARIABLE = 'Renombrar variable...';
+Blockly.MSG_RENAME_VARIABLE_TITLE = 'Renombrar todas las "%1" variables a:';
 
 // Colour Blocks.
 Blockly.LANG_COLOUR_PICKER_HELPURL = 'http://en.wikipedia.org/wiki/Color';
-Blockly.LANG_COLOUR_PICKER_TOOLTIP = 'Choose a colour from the palette.';
+Blockly.LANG_COLOUR_PICKER_TOOLTIP = 'Elegir el color de la paleta.';
 
 Blockly.LANG_COLOUR_RGB_HELPURL = 'http://www.december.com/html/spec/colorper.html';
-Blockly.LANG_COLOUR_RGB_TITLE = 'colour with';
-Blockly.LANG_COLOUR_RGB_RED = 'red';
-Blockly.LANG_COLOUR_RGB_GREEN = 'green';
-Blockly.LANG_COLOUR_RGB_BLUE = 'blue';
-Blockly.LANG_COLOUR_RGB_TOOLTIP = 'Create a colour with the specified amount of red, green,\n' +
-    'and blue.  All values must be between 0 and 100.';
+Blockly.LANG_COLOUR_RGB_TITLE = 'color con';
+Blockly.LANG_COLOUR_RGB_RED = 'rojo';
+Blockly.LANG_COLOUR_RGB_GREEN = 'verde';
+Blockly.LANG_COLOUR_RGB_BLUE = 'azul';
+Blockly.LANG_COLOUR_RGB_TOOLTIP = 'Crear un color con una cantidad especifica de\n' +
+    'rojo, verde y azul.  Todos los valores deben ser entre 0 y 100.';
 
 Blockly.LANG_COLOUR_BLEND_HELPURL = 'http://meyerweb.com/eric/tools/color-blend/';
-Blockly.LANG_COLOUR_BLEND_TITLE = 'blend';
-Blockly.LANG_COLOUR_BLEND_COLOUR1 = 'colour 1';
-Blockly.LANG_COLOUR_BLEND_COLOUR2 = 'colour 2';
-Blockly.LANG_COLOUR_BLEND_RATIO = 'ratio';
-Blockly.LANG_COLOUR_BLEND_TOOLTIP = 'Blends two colours together with a given ratio (0.0 - 1.0).';
+Blockly.LANG_COLOUR_BLEND_TITLE = 'blend'; // - blend - mezclar?
+Blockly.LANG_COLOUR_BLEND_COLOUR1 = 'color 1';
+Blockly.LANG_COLOUR_BLEND_COLOUR2 = 'color 2';
+Blockly.LANG_COLOUR_BLEND_RATIO = 'ratio'; // ratio? - proporción?
+Blockly.LANG_COLOUR_BLEND_TOOLTIP = 'Mezcalr dos colores en una proporción dada (0.0 - 1.0).';
 
 // Control Blocks.
 Blockly.LANG_CONTROLS_IF_HELPURL = 'http://code.google.com/p/blockly/wiki/If_Then';
