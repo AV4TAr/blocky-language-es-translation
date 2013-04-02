@@ -67,47 +67,47 @@ Blockly.LANG_COLOUR_BLEND_HELPURL = 'http://meyerweb.com/eric/tools/color-blend/
 Blockly.LANG_COLOUR_BLEND_TITLE = 'blend'; // - blend - mezclar?
 Blockly.LANG_COLOUR_BLEND_COLOUR1 = 'color 1';
 Blockly.LANG_COLOUR_BLEND_COLOUR2 = 'color 2';
-Blockly.LANG_COLOUR_BLEND_RATIO = 'ratio'; // ratio? - proporción?
+Blockly.LANG_COLOUR_BLEND_RATIO = 'proporción'; // ratio? - proporción? relación?
 Blockly.LANG_COLOUR_BLEND_TOOLTIP = 'Mezcalr dos colores en una proporción dada (0.0 - 1.0).';
 
 // Control Blocks.
 Blockly.LANG_CONTROLS_IF_HELPURL = 'http://code.google.com/p/blockly/wiki/If_Then';
-Blockly.LANG_CONTROLS_IF_TOOLTIP_1 = 'If a value is true, then do some statements.';
-Blockly.LANG_CONTROLS_IF_TOOLTIP_2 = 'If a value is true, then do the first block of statements.\n' +
-    'Otherwise, do the second block of statements.';
-Blockly.LANG_CONTROLS_IF_TOOLTIP_3 = 'If the first value is true, then do the first block of statements.\n' +
-    'Otherwise, if the second value is true, do the second block of statements.';
-Blockly.LANG_CONTROLS_IF_TOOLTIP_4 = 'If the first value is true, then do the first block of statements.\n' +
-    'Otherwise, if the second value is true, do the second block of statements.\n' +
-    'If none of the values are true, do the last block of statements.';
-Blockly.LANG_CONTROLS_IF_MSG_IF = 'if';
-Blockly.LANG_CONTROLS_IF_MSG_ELSEIF = 'else if';
-Blockly.LANG_CONTROLS_IF_MSG_ELSE = 'else';
-Blockly.LANG_CONTROLS_IF_MSG_THEN = 'do';
+Blockly.LANG_CONTROLS_IF_TOOLTIP_1 = 'Si un valor es verdadero, entonces hacer algunas instrucciones.';
+Blockly.LANG_CONTROLS_IF_TOOLTIP_2 = 'Si un valor es verdadero, entonces hacer el primer blocke de instrucciones.\n' +
+    'De lo contrario, hacer el segundo bloque de instrucciones.';
+Blockly.LANG_CONTROLS_IF_TOOLTIP_3 = 'Si el primer valor es verdadero, entonces hacer el primer bloque de instrucciones.\n' +
+    'De lo contrario, si el segundo valor es verdadero, hacer el segundo bloque de instrucciones.';
+Blockly.LANG_CONTROLS_IF_TOOLTIP_4 = 'Si el primer valor es verdadero, entonces hacer el primer bloque de instrucciones.\n' +
+    'De lo contrario, si el segundo valor es verdadero, hacer el segundo bloque de instrucciones.\n' +
+    'Si ninguno de los valores es verdadero, hacer el último bloque de instrucciones.';
+Blockly.LANG_CONTROLS_IF_MSG_IF = 'si';
+Blockly.LANG_CONTROLS_IF_MSG_ELSEIF = 'sino si';
+Blockly.LANG_CONTROLS_IF_MSG_ELSE = 'sino';
+Blockly.LANG_CONTROLS_IF_MSG_THEN = 'hacer';
 
-Blockly.LANG_CONTROLS_IF_IF_TITLE_IF = 'if';
+Blockly.LANG_CONTROLS_IF_IF_TITLE_IF = 'si';
 Blockly.LANG_CONTROLS_IF_IF_TOOLTIP = 'Add, remove, or reorder sections\n' +
     'to reconfigure this if block.';
 
-Blockly.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'else if';
-Blockly.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Add a condition to the if block.';
+Blockly.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'sino si';
+Blockly.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Agregar una condición al bloque si.';
 
-Blockly.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'else';
-Blockly.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Add a final, catch-all condition to the if block.';
+Blockly.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'sino';
+Blockly.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Agregar una condicion final al bloque si.';
 
 Blockly.LANG_CONTROLS_REPEAT_HELPURL = 'http://en.wikipedia.org/wiki/For_loop';
-Blockly.LANG_CONTROLS_REPEAT_TITLE_REPEAT = 'repeat';
-Blockly.LANG_CONTROLS_REPEAT_TITLE_TIMES = 'times';
-Blockly.LANG_CONTROLS_REPEAT_INPUT_DO = 'do';
-Blockly.LANG_CONTROLS_REPEAT_TOOLTIP = 'Do some statements several times.';
+Blockly.LANG_CONTROLS_REPEAT_TITLE_REPEAT = 'repetir';
+Blockly.LANG_CONTROLS_REPEAT_TITLE_TIMES = 'veces';
+Blockly.LANG_CONTROLS_REPEAT_INPUT_DO = 'hacer';
+Blockly.LANG_CONTROLS_REPEAT_TOOLTIP = 'Hacer un instrucción varias veces.';
 
 Blockly.LANG_CONTROLS_WHILEUNTIL_HELPURL = 'http://code.google.com/p/blockly/wiki/Repeat';
-Blockly.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'repeat';
-Blockly.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'do';
-Blockly.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'while';
-Blockly.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'until';
-Blockly.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'While a value is true, then do some statements.';
-Blockly.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'While a value is false, then do some statements.';
+Blockly.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'repetir';
+Blockly.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'hacer';
+Blockly.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'mientras';
+Blockly.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'hasta';
+Blockly.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'Mientras el valor sea verdadero, hacer algunas instrucciones.';
+Blockly.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'Mientras el valor sea falso, hacer algunas instrucciones.';
 
 Blockly.LANG_CONTROLS_FOR_HELPURL = 'http://en.wikipedia.org/wiki/For_loop';
 Blockly.LANG_CONTROLS_FOR_INPUT_WITH = 'count with';
