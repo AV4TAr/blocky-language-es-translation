@@ -86,8 +86,8 @@ Blockly.LANG_CONTROLS_IF_MSG_ELSE = 'sino';
 Blockly.LANG_CONTROLS_IF_MSG_THEN = 'hacer';
 
 Blockly.LANG_CONTROLS_IF_IF_TITLE_IF = 'si';
-Blockly.LANG_CONTROLS_IF_IF_TOOLTIP = 'Add, remove, or reorder sections\n' +
-    'to reconfigure this if block.';
+Blockly.LANG_CONTROLS_IF_IF_TOOLTIP = 'Agregar, remover, o reordenar secciones\n' +
+    'para reconfigrar este bloque "si".';
 
 Blockly.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'sino si';
 Blockly.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Agregar una condición al bloque si.';
@@ -110,38 +110,38 @@ Blockly.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'Mientras el valor sea verdader
 Blockly.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'Mientras el valor sea falso, hacer algunas instrucciones.';
 
 Blockly.LANG_CONTROLS_FOR_HELPURL = 'http://en.wikipedia.org/wiki/For_loop';
-Blockly.LANG_CONTROLS_FOR_INPUT_WITH = 'count with';
+Blockly.LANG_CONTROLS_FOR_INPUT_WITH = 'contar con';
 Blockly.LANG_CONTROLS_FOR_INPUT_VAR = 'x';
-Blockly.LANG_CONTROLS_FOR_INPUT_FROM = 'from';
-Blockly.LANG_CONTROLS_FOR_INPUT_TO = 'to';
-Blockly.LANG_CONTROLS_FOR_INPUT_DO = 'do';
-Blockly.LANG_CONTROLS_FOR_TOOLTIP = 'Count from a start number to an end number.\n' +
-    'For each count, set the current count number to\n' +
-    'variable "%1", and then do some statements.';
+Blockly.LANG_CONTROLS_FOR_INPUT_FROM = 'desde';
+Blockly.LANG_CONTROLS_FOR_INPUT_TO = 'hasta';
+Blockly.LANG_CONTROLS_FOR_INPUT_DO = 'hacer';
+Blockly.LANG_CONTROLS_FOR_TOOLTIP = 'Contar desde un numero inicial hasta un numero final.\n' +
+    'Por cada cuenta, setear el numero de cuenta actual a la variable \n' +
+    'variable "%1", y luego hacer las siguiente instrucciones.';
 
 Blockly.LANG_CONTROLS_FOREACH_HELPURL = 'http://en.wikipedia.org/wiki/For_loop';
-Blockly.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'for each item';
+Blockly.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'para cada item';
 Blockly.LANG_CONTROLS_FOREACH_INPUT_VAR = 'x';
-Blockly.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'in list';
-Blockly.LANG_CONTROLS_FOREACH_INPUT_DO = 'do';
-Blockly.LANG_CONTROLS_FOREACH_TOOLTIP = 'For each item in a list, set the item to\n' +
-    'variable "%1", and then do some statements.';
+Blockly.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'en la lista';
+Blockly.LANG_CONTROLS_FOREACH_INPUT_DO = 'hacer';
+Blockly.LANG_CONTROLS_FOREACH_TOOLTIP = 'Para cada item en la lista, setear el item a la\n' +
+    'variable "%1", y luego hacer las siguientes instrucciones.';
 
 Blockly.LANG_CONTROLS_FLOW_STATEMENTS_HELPURL = 'http://en.wikipedia.org/wiki/Control_flow';
-Blockly.LANG_CONTROLS_FLOW_STATEMENTS_INPUT_OFLOOP = 'of loop';
-Blockly.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_BREAK = 'break out';
-Blockly.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE = 'continue with next iteration';
+Blockly.LANG_CONTROLS_FLOW_STATEMENTS_INPUT_OFLOOP = 'del loop';
+Blockly.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_BREAK = 'salir';
+Blockly.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE = 'continuar con la siguiente iteración';
 Blockly.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK = 'Break out of the containing loop.';
-Blockly.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE = 'Skip the rest of this loop, and\n' +
-    'continue with the next iteration.';
-Blockly.LANG_CONTROLS_FLOW_STATEMENTS_WARNING = 'Warning:\n' +
-    'This block may only\n' +
-    'be used within a loop.';
+Blockly.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE = 'Omitir el resto del bucle, y\n' +
+    'seguir con la siguiente iteración.';
+Blockly.LANG_CONTROLS_FLOW_STATEMENTS_WARNING = 'Advertencia:\n' +
+    'Esto bloque solo puede ser\n' +
+    'usado dentro de un bucle.';
 
 // Logic Blocks.
 Blockly.LANG_LOGIC_COMPARE_HELPURL = 'http://en.wikipedia.org/wiki/Inequality_(mathematics)';
-Blockly.LANG_LOGIC_COMPARE_TOOLTIP_EQ = 'Return true if both inputs equal each other.';
-Blockly.LANG_LOGIC_COMPARE_TOOLTIP_NEQ = 'Return true if both inputs are not equal to each other.';
+Blockly.LANG_LOGIC_COMPARE_TOOLTIP_EQ = 'Devolver verdadero si ambas entradas son iguales.';
+Blockly.LANG_LOGIC_COMPARE_TOOLTIP_NEQ = 'Devolver verdadero si ambas entradas son diferentes.';
 Blockly.LANG_LOGIC_COMPARE_TOOLTIP_LT = 'Return true if the first input is smaller\n' +
     'than the second input.';
 Blockly.LANG_LOGIC_COMPARE_TOOLTIP_LTE = 'Return true if the first input is smaller\n' +
